@@ -1,0 +1,1 @@
+C:\Users\RobertoCarlos\Documents\Rust-Essential-Training\floating_point_types\target\debug\floating_point_types.exe: C:\Users\RobertoCarlos\Documents\Rust-Essential-Training\floating_point_types\src\main.rs
