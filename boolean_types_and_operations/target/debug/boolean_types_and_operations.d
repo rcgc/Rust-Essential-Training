@@ -1,0 +1,1 @@
+C:\Users\RobertoCarlos\Documents\Rust-Essential-Training\boolean_types_and_operations\target\debug\boolean_types_and_operations.exe: C:\Users\RobertoCarlos\Documents\Rust-Essential-Training\boolean_types_and_operations\src\main.rs
