@@ -1,0 +1,1 @@
+C:\Users\RobertoCarlos\Documents\Rust-Essential-Training\arithmetic_operations\target\debug\arithmetic_operations.exe: C:\Users\RobertoCarlos\Documents\Rust-Essential-Training\arithmetic_operations\src\main.rs
