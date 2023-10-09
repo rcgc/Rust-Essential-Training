@@ -1,0 +1,1 @@
+C:\Users\RobertoCarlos\Documents\Rust-Essential-Training\conditional_assignment\target\debug\conditional_assignment.exe: C:\Users\RobertoCarlos\Documents\Rust-Essential-Training\conditional_assignment\src\main.rs
