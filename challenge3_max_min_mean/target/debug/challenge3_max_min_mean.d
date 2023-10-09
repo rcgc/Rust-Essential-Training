@@ -1,0 +1,1 @@
+C:\Users\RobertoCarlos\Documents\Rust-Essential-Training\challenge3_max_min_mean\target\debug\challenge3_max_min_mean.exe: C:\Users\RobertoCarlos\Documents\Rust-Essential-Training\challenge3_max_min_mean\src\main.rs
