@@ -1,3 +1,16 @@
+/*
+    statement: performs an action without
+                returning a value
+
+                let sum = a + b;
+
+
+
+    expression: evaluates to a resulting value,
+                does not end with a semicolon
+                a + b
+                1 + 2
+ */
 fn main() {
     say_hello();
     say_a_number(13);
