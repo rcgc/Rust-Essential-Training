@@ -1,0 +1,1 @@
+C:\Users\RobertoCarlos\Documents\Rust-Essential-Training\challenge2_temperature\target\debug\challenge2_temperature.exe: C:\Users\RobertoCarlos\Documents\Rust-Essential-Training\challenge2_temperature\src\main.rs
