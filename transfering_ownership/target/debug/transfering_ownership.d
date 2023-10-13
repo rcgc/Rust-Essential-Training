@@ -1,0 +1,1 @@
+C:\Users\RobertoCarlos\Documents\Rust-Essential-Training\transfering_ownership\target\debug\transfering_ownership.exe: C:\Users\RobertoCarlos\Documents\Rust-Essential-Training\transfering_ownership\src\main.rs
