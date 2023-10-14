@@ -1,3 +1,11 @@
+/*
+    More challanges:
+        Enhance your solution to also remove other
+        types of whitespaces \n \t
+
+        Write a function to return the second word
+        in a given string
+*/
 fn main() {
     let test1 = "We need more space.";
     assert_eq!(trim_spaces(test1), "We need more space.");
