@@ -9,6 +9,8 @@
 
     Range indices must occur at valid UTF-8
     character boundaries
+
+    &String != &str
 */
 fn main() {
     let message = String::from("Greetings from Earth!");
@@ -20,5 +22,20 @@ fn main() {
 
     let planets = [1, 2, 3, 4, 5, 6, 7, 8]; // sorry, Pluto!
     let inner_planets : &[i32] = &planets[..4];
-    print!("inner_planets are {:?}", inner_planets);
+    println!("inner_planets are {:?}", inner_planets);
+
+    let first_word = get_first_word(&message[10..]);
+    println!("first_word is {}", first_word);
+}
+
+fn get_first_word(s: &str) -> &str {
+    let bytes = s.as_bytes();
+
+    for (index, &item) in bytes.iter().enumerate(){
+        if item == b' '{
+            return &s[..index]; //found a space!
+        }
+    }
+
+    &s // no spaces found; input is a single word
 }
