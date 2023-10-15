@@ -15,14 +15,26 @@ impl Shuttle {
     fn add_fuel(&mut self, gallons: f64){
         self.propellant += gallons;
     }
+
+    fn new(name: &str) -> Shuttle {
+        Shuttle {
+            name: String::from(name),
+            crew_size: 7,
+            propellant: 0.0
+        }
+    }
 }
 
 fn main() {
+    /*
     let mut vehicle = Shuttle {
         name: String::from("Endeavour"),
         crew_size: 7,
         propellant: 835958.0
     };
+     */
+
+    let mut vehicle = Shuttle::new("Endeavour");
     println!("\nname is {}", vehicle.name);
 
     vehicle.name = String::from("Atlantis");
