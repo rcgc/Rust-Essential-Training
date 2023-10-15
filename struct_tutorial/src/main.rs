@@ -7,6 +7,16 @@ struct Shuttle {
     propellant: f64
 }
 
+impl Shuttle {
+    fn get_name(&self) -> &str{
+        &self.name
+    }
+
+    fn add_fuel(&mut self, gallons: f64){
+        self.propellant += gallons;
+    }
+}
+
 fn main() {
     let mut vehicle = Shuttle {
         name: String::from("Endeavour"),
@@ -23,4 +33,11 @@ fn main() {
     };
 
     println!("\nvehicle2 is {:?}", vehicle2);
+
+    let vehicle_name = vehicle.get_name();
+    println!("\nvehicle_name is {}", vehicle_name);
+
+    println!("\npropellant is {}", vehicle.propellant);
+    vehicle.add_fuel(1000.5);
+    println!("propellant is {}", vehicle.propellant);
 }
