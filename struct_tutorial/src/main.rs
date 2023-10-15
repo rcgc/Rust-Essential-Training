@@ -1,4 +1,5 @@
 #[derive(Debug)]
+#[derive(Clone)]
 
 struct Shuttle {
     name: String,
@@ -16,4 +17,10 @@ fn main() {
 
     vehicle.name = String::from("Atlantis");
     println!("\nvehicle is {:?}", vehicle);
+
+    let vehicle2 = Shuttle {
+        ..vehicle.clone()
+    };
+
+    println!("\nvehicle2 is {:?}", vehicle2);
 }
