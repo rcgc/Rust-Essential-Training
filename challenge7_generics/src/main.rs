@@ -3,6 +3,13 @@
 
     Box<T> to store values that cannot be known at compile time
 
+    The Box data type consists of a pointer 
+    on the stack that points to a chunk of 
+    memory on the heap that has been allocated 
+    for the data. When the box goes out of scope,
+    it will automatically drop and deallocate
+    the memory it was using on the heap.
+
     This challenge adds two numbers stored within
     Box<T> objects
 */
