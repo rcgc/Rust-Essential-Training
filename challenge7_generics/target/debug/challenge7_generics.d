@@ -1,0 +1,1 @@
+C:\Users\RobertoCarlos\Documents\Rust-Essential-Training\challenge7_generics\target\debug\challenge7_generics.exe: C:\Users\RobertoCarlos\Documents\Rust-Essential-Training\challenge7_generics\src\main.rs
