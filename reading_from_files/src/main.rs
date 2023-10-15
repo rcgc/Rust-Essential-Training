@@ -1,4 +1,4 @@
-use::std::fs;
+use std::fs;
 
 fn main() {
     let path = "C:/Users/RobertoCarlos/Documents/Rust-Essential-Training/reading_from_files/src/planets.txt";
