@@ -1,0 +1,1 @@
+C:\Users\RobertoCarlos\Documents\Rust-Essential-Training\challenge10_errors\target\debug\challenge10_errors.exe: C:\Users\RobertoCarlos\Documents\Rust-Essential-Training\challenge10_errors\src\main.rs
