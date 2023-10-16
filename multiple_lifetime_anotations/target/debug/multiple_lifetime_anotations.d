@@ -1,0 +1,1 @@
+C:\Users\RobertoCarlos\Documents\Rust-Essential-Training\multiple_lifetime_anotations\target\debug\multiple_lifetime_anotations.exe: C:\Users\RobertoCarlos\Documents\Rust-Essential-Training\multiple_lifetime_anotations\src\main.rs
