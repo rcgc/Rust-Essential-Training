@@ -1,1 +1,1 @@
-# Rust-Essential-Training
+Source files from the course: [Rust Essential Training](https://www.linkedin.com/learning/rust-essential-training) taught by [Barron Stone](https://www.linkedin.com/learning/instructors/barron-stone?u=76737724). Every folder consists of the different topics to learn such programming language.
